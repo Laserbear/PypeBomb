@@ -3,7 +3,7 @@ import socket
 import threading
 import subprocess
 
-bind_ip = "0.0.0.0"
+bind_ip = "0.0.0.0" #change if on Windows
 bind_port = 9999
 
 if(len(sys.argv) > 1):
